@@ -33,12 +33,12 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              href="/donate"
+              href="/about"
               className={`text-xl hover:text-red-500 transition ${
-                isActive("/donate") ? "text-red-500 font-bold" : ""
+                isActive("/about") ? "text-red-500 font-bold" : ""
               }`}
             >
-              Donate
+              About
             </Link>
             <Link
               href="/request"
@@ -49,20 +49,20 @@ const Navbar = () => {
               Request
             </Link>
             <Link
-              href="/about"
+              href="/blog"
               className={`text-xl hover:text-red-500 transition ${
-                isActive("/about") ? "text-red-500 font-bold" : ""
+                isActive("/blog") ? "text-red-500 font-bold" : ""
               }`}
             >
-              About
+              Blog
             </Link>
             <Link
-              href="/contact"
+              href="/pages"
               className={`text-xl hover:text-red-500 transition ${
-                isActive("/contact") ? "text-red-500 font-bold" : ""
+                isActive("/pages") ? "text-red-500 font-bold" : ""
               }`}
             >
-              Contact
+              Pages
             </Link>
           </div>
 
