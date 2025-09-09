@@ -13,6 +13,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
+
 export const metadata = {
   title: "BloodLink - Donate and Save Lives",
   description: "Join us in making a difference by donating blood.",
